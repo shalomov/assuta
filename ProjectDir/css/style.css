@@ -1,0 +1,503 @@
+/*------------------------adjustment------------------------*/
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-width: 320px;
+}
+
+ul {
+	list-style: none;
+}
+ul,
+ul li,
+p,
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Gotham Pro Regular', Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+* {
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+/*------------------------ / adjustment------------------------*/
+
+
+/*------------------------ nav ------------------------*/
+.logo ,
+.top-nav_menu{
+	float: left;
+}
+.wrapp-main_menu {
+	border-bottom: 1px solid #e0dfdf;
+}
+.top-nav_menu {
+	margin-left: 50px;
+}
+.top-menu_phones  {
+	float: right;
+}
+.top-nav_menu li {
+	display: inline-block;
+	margin-left: -4px;
+}
+.top-nav_menu li a ,
+.logo a ,
+.top-menu_phones a {
+	line-height: 80px;
+}
+.top-nav_menu ul {
+	margin-bottom: 0;
+}
+.top-nav_menu li a {
+	font-family: 'Gotham Pro Medium', Arial, sans-serif;
+	color: #000;
+	font-size: 12px;
+}
+.logo a {
+	display: block;
+}
+.top-nav_menu li a {
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.top-menu_phones a {
+	font-family: 'Gotham Pro Bold', Arial, sans-serif;
+	font-size: 18px;
+	color: #000;
+}
+.top-menu_phones i {
+	font-size: 18px;
+	color: #54b0dd;
+}
+
+/*------------------------ / nav ------------------------*/
+
+/*------------------------  about ------------------------*/
+.about {
+	max-width: 44%;
+	float: left;
+	padding-right: 40px;
+}
+.about-video {
+	position: absolute;
+    width: 696px;
+    height: 606px;
+    right: 0;
+
+}
+.about-video img {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.wrapp-btn {
+	height: 100%;
+    position: relative;
+    text-align: center;
+}
+.wrapp-btn .play-btn {
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    margin-top: -57px;
+}
+.wrapp-content {
+	position: relative;
+}
+.title {
+	font-family: 'Gotham Pro Regular', Arial, sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+    margin-bottom: 20px;
+}
+.description {
+	font-family: 'Gotham Pro Regular', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 28px;
+}
+.content-options {
+	margin-top: 102px;
+	margin-bottom: 168px;
+}
+.bg-content {
+	background-color: #fbf9f9;
+}
+.white-color {
+	color: #fff;
+}
+.from-desc {
+	position: relative;
+	margin-bottom: 50px;
+}
+.from-desc:after {
+    content: '';
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    background: url(../img/form-after.png);
+    bottom: -30px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+
+/*------------------------ / about ------------------------*/
+
+/*------------------------ form ------------------------*/
+
+.form-desc {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 80px;
+	max-width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.form-btn {
+	display: block;
+	border-radius: 20px;
+	background-color: #0d2d6e;
+	line-height: 50px;
+	padding-right: 40px;
+	padding-left: 40px;
+	max-width: 280px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+}
+.form-btn:hover ,
+.form-btn:focus ,
+.form-btn:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+.wrapp-form {
+    background: url('../img/bg-form.png');
+}
+
+
+/*------------------------  info ------------------------*/
+.desc-info {
+	font-family: 'Gotham Pro Medium', Arial, sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	position: relative;
+	margin-bottom: 33px;
+	margin-top: 50px;
+}
+.desc-info:after {
+    content: '';
+    width: 40px;
+    height: 4px;
+    position: absolute;
+    background: url(../img/form-after.png);
+    bottom: -30px;
+    left: 0;
+}
+.info-item {
+    max-width: 400px;
+    display: inline-block;
+    margin-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 35px;
+    padding-left: 80px;
+    position: relative;
+    background: #fff;
+    margin-top: 27px;
+    vertical-align: top;
+    min-height: 190px;
+    border: 1px solid #f9f8f8;
+}
+.info-list {
+	margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+}
+.info-desc {
+	font-family: 'Gotham Pro Medium', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+}
+.info-item.fst-info_item:after {
+	content: '';
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    background: url(../img/icon-info1.png);
+    left: 0;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.info-item.sec-info_item:after {
+	content: '';
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    background: url(../img/icon-info2.png);
+    left: 0;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.info-item.thr-info_item:after {
+	content: '';
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    background: url(../img/icon-info3.png);
+    left: 0;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.info-item.four-info_item:after {
+	content: '';
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    background: url(../img/icon-info4.png);
+    left: 0;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.info-item:nth-child(2n) {
+    margin-left: 75px;
+}
+.test-desc {
+	font-family: 'Gotham Pro Regular', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 655px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+table.table-test_info {
+    width: 100%;
+    max-width: 600px;
+}
+table.table-test_info td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #f5f4f4;
+}
+.wrap-test_img {
+	position: absolute;
+	bottom: 0;
+}
+.wrapp-test_info {
+	position: relative;
+}
+.wrap-test_img.second-info_img {
+    right: 35px;
+}
+.wrap-test_img.first-info_img {
+    right: 220px;
+    z-index: 2;
+}
+
+/*------------------------ / info ------------------------*/
+
+
+
+
+
+/*------------------------  tasks ------------------------*/
+.wrapp-tasks {
+	background-color: #fbf9f9;
+}
+.title-tasks {
+	font-family: 'Gotham Pro Medium', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 48px;
+    margin-top: 80px;
+}
+.desc-tasks {
+	font-family: 'Gotham Pro Regular', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+.wrapp-tasks_item {
+	margin-top: 150px;
+	margin-bottom: 90px;
+}
+.wrapp-item {
+	max-width: 360px;
+	display: inline-block;
+	border: 1px solid #f2f0f0;
+	text-align: center;
+	margin-left: 30px;
+    margin-right: -3px;
+    position: relative;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px; 
+}
+.wrapp-item:nth-child(3n+1) {
+	margin-left: 0;
+}
+.wrapp-item:before {
+	content: '';
+	position: absolute;
+	background-image: url('../img/tasks-item1.png');
+	width: 151px;
+	height: 151px;
+	top: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+/*------------------------ / tasks ------------------------*/
+
+
+
+/*------------------------   history ------------------------*/
+.wrapp-history {
+    background-color: #fbf9f9;
+	position: relative;
+	overflow: hidden;
+
+}
+.bg-layer {
+	position: absolute;
+}
+.wrapp-tabs {
+	margin-bottom: 50px;
+    padding-top: 40px;
+    position: relative;
+}
+.author-photo {
+	margin-right: 15px;
+	float: left;
+}
+.wrapp-tabs .nav-tabs > li.active > a, 
+.wrapp-tabs .nav-tabs > li.active > a:hover,
+.wrapp-tabs .nav-tabs > li.active > a:focus {
+	border: none;
+	font-family: 'Gotham Pro Medium', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	color: #0d2d6e;
+}
+.wrapp-tabs .nav-tabs > li > a {
+	font-family: 'Gotham Pro Medium', Arial, sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	color: #b9b9b9;
+}
+.wrapp-tabs .nav-tabs {
+	border: transparent;
+	margin-bottom: 40px;
+}
+.wrapp-tabs .tab-content {
+	padding-top: 25px;
+}
+.wrapp-tabs_desc {
+	float: left;
+    max-width: 540px;
+    margin-right: 40px;
+}
+
+.wrapp-tabs .nav-tabs > li > a:focus ,
+.wrapp-tabs .nav-tabs > li > a:hover {
+    border-color: transparent;
+	background-color: #fff;
+}
+.tabs-desc {
+    margin-bottom: 20px;
+}
+.author-info {
+	margin-top: 25px;
+}
+.diagnose {
+	font-family: 'Gotham Pro Regular', Arial, sans-serif;
+	font-size: 11px;
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+.author-name {
+	font-family: 'Gotham Pro Medium', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+}
+.white-bg {
+	background-color: #fff;
+}
+.bg-layer {
+    position: absolute;
+    top: -60px;
+    left: 90px;
+    bottom: -60px;
+    right: 90px;
+    background-color: #fff;
+    border-radius: 100% 100% 100% 100% / 140% 140% 140% 140%;
+}
+.history {
+    position: relative;
+    z-index: 2;
+}
+.white-bg {
+    border-radius: 2px;
+}
+.wrapp-history_video {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tab-history {
+	max-width: 540px;
+}
+/*------------------------ / history ------------------------*/
+
+
+
+/*------------------------  questions ------------------------*/
+
+.wrapp-questions {
+	padding-top: 80px;
+	background-color: #fbf9f9;
+}
+.questions {
+    padding-top: 50px;
+    margin-bottom: 75px;
+}
+.questions .panel-heading {
+    background: #fbf9f9;
+    border-radius: 0;
+}
+.questions .panel.panel-default {
+    border: none;
+    border-radius: 0;
+    background: #fbf9f9;
+    box-shadow: none;
+}
+.questions .panel-body {
+    border: none!important;
+}
+.questions .panel-heading {
+    background: #fbf9f9;
+}
+.gallery-content {
+    margin-bottom: 100px;
+}
+
+/*------------------------ / questions ------------------------*/

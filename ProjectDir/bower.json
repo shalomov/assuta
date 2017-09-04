@@ -1,0 +1,17 @@
+{
+  "name": "assuta",
+  "version" : "1.0.0",
+  "author" : [
+  	"ForceDC web studio"
+  ],
+  "license" : "Shalomov 2017",
+  "ignore" : [
+  	"**/.*",
+  	"node_modules",
+  	"bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}

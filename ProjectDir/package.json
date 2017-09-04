@@ -1,0 +1,18 @@
+{
+  "name": "assutaMarkup",
+  "version": "0.1.0",
+  "description": "assuta",
+  "author": "ForceDC Shalomov dev",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-mini-css": "0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shalomov/assuta.git"
+  }
+}
