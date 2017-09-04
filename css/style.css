@@ -101,6 +101,7 @@ img {
     width: 696px;
     height: 606px;
     right: 0;
+    top: 0;
 
 }
 .about-video img {
@@ -140,6 +141,8 @@ img {
 	margin-bottom: 168px;
 }
 .bg-content {
+	position: relative;
+	overflow: hidden;
 	background-color: #fbf9f9;
 }
 .white-color {
@@ -410,15 +413,6 @@ table.table-test_info td {
 	background-color: #fff;
     position: relative;
 }
-/*.bg-layer {
-    position: absolute;
-    top: -60px;
-    left: 90px;
-    bottom: -60px;
-    right: 90px;
-    background-color: #fff;
-    border-radius: 100% 100% 100% 100% / 140% 140% 140% 140%;
-}*/
 .triangle {
     position: absolute;
     bottom: 0;
