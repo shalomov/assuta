@@ -204,7 +204,7 @@ img {
 	line-height: 30px;
 	position: relative;
 	margin-bottom: 33px;
-	margin-top: 50px;
+	padding-top: 50px;
 }
 .desc-info:after {
     content: '';
@@ -218,7 +218,7 @@ img {
 .info-item {
     max-width: 400px;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 75px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 35px;
@@ -250,9 +250,7 @@ img {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.info-item:nth-child(2n) {
-    margin-left: 75px;
-}
+ 
 .test-desc {
 	font-family: 'Gotham Pro Regular', Arial, sans-serif;
 	font-size: 14px;
@@ -345,9 +343,9 @@ table.table-test_info td {
 	overflow: hidden;
 
 }
-.bg-layer {
+/*.bg-layer {
 	position: absolute;
-}
+}*/
 .wrapp-tabs {
 	margin-bottom: 50px;
     padding-top: 40px;
@@ -410,8 +408,9 @@ table.table-test_info td {
 }
 .white-bg {
 	background-color: #fff;
+    position: relative;
 }
-.bg-layer {
+/*.bg-layer {
     position: absolute;
     top: -60px;
     left: 90px;
@@ -419,6 +418,39 @@ table.table-test_info td {
     right: 90px;
     background-color: #fff;
     border-radius: 100% 100% 100% 100% / 140% 140% 140% 140%;
+}*/
+.triangle {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.triangle:before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 250px 250px 250px 0;
+    border-color: transparent #ffffff transparent transparent;
+    left: -260px;
+    top: 50%;
+    margin-top: -250px;
+}
+.triangle:after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 250px 0 250px 250px;
+    border-color: transparent transparent transparent #ffffff;
+    right: -230px;
+    top: 50%;
+    margin-top: -250px;
 }
 .history {
     position: relative;
